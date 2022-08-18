@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "SF Pro Display";
+}
+body {
+  background: black;
+}
+.navbar_top_title {
+  color: white;
+}
+.col-6 a {
+  display: flex;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 20%;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding-inline: 6rem;
+}
+.col-12 {
+  flex: 100%;
+  color: white;
+}
+
+.cart {
+  color: white;
+}
+.col-12 {
+  flex: 25%;
+
+  height: 60vh;
+  width: 50%;
+  background: #262626;
+  border-radius: 16px;
+  position: relative;
+  padding: 1rem;
+}
+.row-inner-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 24px;
+  gap: 8px;
+
+  width: 320px;
+  height: 120px;
+
+  background: #c440a1;
+}
+.back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+
+  position: relative;
+  /* width: 368px;
+  height: 696px; */
+
+  background: #262626;
+  border-radius: 16px;
+}
+.back-title {
+  width: 320px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 44px;
+}
+.col {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12), 0px 16px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+
+  order: 1;
+
+  margin-bottom: 8px;
+}
+.col button {
+  width: 50px;
+  height: 10px;
+  color: rgba(255, 255, 255, 0.75);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 3%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #fff;
+
+  margin-left: 10px;
+  width: 15vh;
+  height: 3vh;
+}
+.col-6 {
+  display: row;
+}
+.col h1 {
+  margin-left: 10px;
+}
+.col h2 {
+  margin-left: 10px;
+}
+.Navbar p {
+  margin-top: 30vh;
+  margin-right: 20vh;
+}
+.Navbar a {
+  margin-bottom: 20vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .row {
+    width: 40vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .back {
+    width: 100%;
+  }
+  .back-title {
+    margin-left: 20vh;
+  }
+  .col button {
+    margin-left: 10px;
+    width: 15vh;
+    height: 4vh;
+  }
+  .h6 {
+    font-size: 1vh;
+  }
+  .Navbar {
+    font-weight: 10;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+  }
+}
+@media screen and (max-width: 600px) {
+  .row {
+    width: 40vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .back {
+    width: 100%;
+  }
+  .back-title {
+    margin-left: 20vh;
+  }
+  .col button {
+    margin-left: 10px;
+    width: 15vh;
+    height: 4vh;
+  }
+  .h6 {
+    font-size: 1vh;
+  }
+  .Navbar p {
+    margin-top: 30vh;
+    margin-right: 20vh;
+  }
+  .Navbar a {
+    margin-bottom: 20vh;
+  }
+}

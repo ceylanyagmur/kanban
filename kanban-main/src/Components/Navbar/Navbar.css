@@ -1,0 +1,20 @@
+.navbar {
+  /* heading / 50 */
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  /* identical to box height, or 120% */
+
+  /* gray / 9 white */
+
+  color: #ffffff;
+  margin-bottom: 15vh;
+}
+.row a {
+  margin-bottom: 90vh;
+}
+.row p {
+  margin-bottom: 0vh;
+}
